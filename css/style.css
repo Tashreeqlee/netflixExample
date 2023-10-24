@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero button {
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+  
+  .categories {
+    background-color: #f3f3f3;
+    padding: 20px;
+  }
+  
+  .categories h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .categories ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .categories ul li {
+    margin-right: 1rem;
+  }
+  
+  .categories ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .categories ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .featured {
+    padding: 20px;
+  }
+  
+  .featured h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card img {
+    height: 450px;
+    object-fit: cover;
+    width: 300px;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
